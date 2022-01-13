@@ -6,8 +6,6 @@
     position: absolute;
     left : 50%;
     top: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
 }
 
 #updateForm, #newForm {
@@ -23,11 +21,11 @@
     position:relative;
     padding:6px 15px;
     left:-8px;
-    border:2px solid #53bd84;
-    background-color:#53bd84;
+    border:2px solid #858ab3;
+    background-color:#858ab3;
     color:#fafafa;
 }
 .button:hover  {
     background-color:#fafafa;
-    color:#207cca;
+    color:#ffffff;
 }

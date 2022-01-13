@@ -11,11 +11,22 @@
 </head>
 <body>
   <section>
+    <style>
+      table {
+        border-width: 8px;
+        padding: 10px;
+        border-style: solid;
+        background-color: #e7e7e7;
+    }
+    </style>
     <div class="container">
       <h1 style="margin-top: 50px;">Data List Barang</h1>
       <a class="btn btn-success ms-2 mt-5" style="background-color: #858ab3; border:none; margin-bottom: 30px;" href="addData.html">Add Data</a>
-        <input class="search" type="text" placeholder="Cari..." required>	
-        <input class="button" type="button" value="Cari">		
+      <span style="float: right">
+        <a class="btn btn-success ms-2 mt-5"style="background-color: #FF0000; border:none; margin-bottom: 30px;" href="index.html">Log Out</a>
+        </span>
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <div class="p-2 bd-highlight"></div>	
       <table id="dataTable" class="table table-bordered table-hover">
           <thead>
               <th>Id</th>
